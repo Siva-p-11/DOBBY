@@ -1,0 +1,11 @@
+app:
+  name: dobby
+  environment: development
+
+runtime:
+  log_level: INFO
+
+paths:
+  model_store: /P/dobby/models
+  dataset_store: /P/dobby/datasets
+  cache_store: /P/dobby/cache
