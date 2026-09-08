@@ -1,0 +1,16 @@
+rules:
+  - capability: filesystem.read
+    effect: allow
+
+  - capability: filesystem.write
+    effect: allow
+
+  - capability: filesystem.delete
+    effect: deny
+
+  - capability: process.execute
+    effect: deny
+
+  - capability: security.scan
+    environment: cyber_lab
+    effect: allow
