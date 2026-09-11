@@ -1,3 +1,8 @@
+from dobby.core.tools.binding import (
+    ToolCapabilityBinder,
+    ToolCapabilityBinding,
+    ToolCapabilityBindingError,
+)
 from dobby.core.tools.creator import (
     GeneratedTool,
     ToolCreationError,
@@ -40,4 +45,7 @@ __all__ = [
     "MaterializedTool",
     "ToolMaterializer",
     "ToolMaterializationError",
+    "ToolCapabilityBinding",
+    "ToolCapabilityBinder",
+    "ToolCapabilityBindingError",
 ]
