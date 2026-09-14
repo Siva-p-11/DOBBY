@@ -5,6 +5,11 @@ from .model import (
     ModelResponse,
 )
 from .registry import ModelRegistry
+from .router import (
+    ModelRouter,
+    ModelRoutingDecision,
+    RegisteredModelRouter,
+)
 from .requirements import (
     ModelIntensity,
     ModelLatency,
@@ -30,6 +35,9 @@ __all__ = [
     "ModelRequest",
     "ModelRequirements",
     "ModelResponse",
+    "ModelRouter",
+    "ModelRoutingDecision",
     "ModelRuntime",
     "ModelSpecification",
+    "RegisteredModelRouter",
 ]
