@@ -3,6 +3,11 @@ from dobby.core.tools.binding import (
     ToolCapabilityBinding,
     ToolCapabilityBindingError,
 )
+from dobby.core.tools.capability_execution import (
+    CapabilityExecutionError,
+    CapabilityExecutionResult,
+    CapabilityExecutionService,
+)
 from dobby.core.tools.creator import (
     GeneratedTool,
     ToolCreationError,
@@ -48,4 +53,7 @@ __all__ = [
     "ToolCapabilityBinding",
     "ToolCapabilityBinder",
     "ToolCapabilityBindingError",
+    "CapabilityExecutionResult",
+    "CapabilityExecutionService",
+    "CapabilityExecutionError",
 ]
